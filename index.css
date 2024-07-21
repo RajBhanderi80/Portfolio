@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.menu-icon{
+    position: fixed;
+    color: #6b7eb6;
+    float: left;
+    margin: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#close{
+    margin: 20px;
+    float: left;
+    color: #000;
+    transform: rotate(45deg);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#menu li a{ 
+    display: inline-block;
+    padding: 10px;
+    margin: 5px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+#menu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    list-style: none;
+    opacity: 0;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    transition: all 1s ease;
+}
+
+#container{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 16%;
+    height: 100%;
+    background-color: #e3e7f3;
+    text-align: center;
+    transition: all 0.6s ease;
+}
+
+#menu li a:hover{
+    font-size: 14px;
+}
+
+#home{
+    height: 338px;
+    background-size: 100vw;
+    background-image: url(Blue\ Modern\ Technology\ LinkedIn\ Banner\ \(1\).png);
+}
+
+#about{
+    padding: 5%;
+}
+
+#about h1{
+    text-align: center;
+    color: #223352;
+    font-size: 35px;
+}
+
+#about h2{
+    padding: 10px;
+    text-align: center; 
+}
+
+.myself{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myself img{
+    height: 200px;
+    width: 200px;
+}
+
+.myself p{
+    padding: 20px 0;
+    padding-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    inline-size: 700px;
+    justify-content: center;
+}
+
+#skill{
+    padding: 5%;
+}
+
+#skill h1{
+    text-align: center;
+    color: #223352;
+    font-size: 35px;
+}
+
+#skill p{
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 30px;
+}
+
+.skill-bars{
+    padding: 5%;
+    padding-left: 35%;
+}
+
+.skill-bars li{
+    text-align: left;
+    list-style: none;
+    height: 0.6rem;
+    background: #a1a1a1;
+    width: 50%;
+    margin-bottom: 6rem;
+    padding: 0;
+    position: relative;
+}
+
+.skill-bars li strong {
+    color: #000;
+    margin-top: -50px;
+    font-size: 20px;
+    line-height: 4rem;
+}
+
+.skill-bars li .htmlProgress{
+    height: 100%;
+    width: 90%;
+    background-color: #223352;
+    position: relative;
+}
+
+.skill-bars li .cssProgress{
+    height: 100%;
+    width: 80%;
+    background-color: #223352;
+    position: relative;
+}
+
+.skill-bars li .jsProgress{
+    height: 100%;
+    width: 45%;
+    background-color: #223352;
+    position: relative;
+}
+
+.skill-bars li .dotnetProgress{
+    height: 100%;
+    width: 20%;
+    background-color: #223352;
+    position: relative;
+}
+
+#education{
+    padding: 5%;
+}
+
+#education h1{
+    text-align: center;
+    color: #223352;
+    font-size: 35px;
+}
+
+.studyinfo{
+    padding: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.studyinfo p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+}
+
+#contact{
+    padding: 5%;
+    background-color: #000;
+}
+
+#contact h1{
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+}
+
+.myinfo{
+    margin-top: 3rem;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.info {
+    margin: 3rem;
+    height: 200px;
+    width: 100%;
+}
+
+.info i {
+    color: #fff;
+}
+
+.info h3 {
+    letter-spacing: 1.5px;
+    padding-top: 2rem;
+    color: #4adedd;
+    font-size: 20px;
+}
+
+.info p {
+    padding-top: 1.5rem;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    padding: 4%;
+    padding-left: 400px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.links a i{
+    padding: 0px 10px 0px 10px;
+    color: #fff;
+}
+
+.footerinfo p{
+    color: rgb(101, 101, 101);
+    letter-spacing: 1px;
+    padding: 15% 10px;
+}
+
+.footerinfo p i{
+    font-size: 15px;
+}
+
+.footerinfo p span{
+    color: #fff;
+}

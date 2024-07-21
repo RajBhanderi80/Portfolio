@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Bhanderi's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <i class="fa fa-bars menu-icon" onclick="openMenu()"></i>
+    <div id="container" onclick="closeMenu()">
+        <div id="close" onclick="closeMenu()">&#10133;</div>
+            <ul id="menu" onclick="closeMenu()">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="home"></div>
+    <div id="about">
+        <h1>A B O U T</h1><br>
+        <h2>Let me introduce myself..</h2>
+        <div class="myself">
+            <img src="photo.png" alt="">
+            <p>"I am a seasoned software engineer adept at designing and implementing scalable applications. 
+            With a strong background in java, I enjoy tackling intricate problems and 
+            delivering efficient solutions that drive technological advancements."</p>
+        </div>
+    </div>
+    <hr>
+    <div id="skill">
+        <h1>S K I L L S</h1>
+        <P>Proficient in HTML, CSS, JavaScript. Experienced in creating responsive, user-friendly websites with a focus on performance and accessibility.</P>
+        <ul class="skill-bars">
+            <li>
+                <div class="htmlProgress"></div>
+                <strong>HTML</strong>
+            </li>
+            <li>
+                <div class="cssProgress"></div>
+                <strong>CSS</strong>
+            </li>
+            <li>
+                <div class="jsProgress"></div>
+                <strong>JAVASCRIPT</strong>
+            </li>
+            <li>
+                <div class="dotnetProgress"></div>
+                <strong>.NET</strong>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <div id="education">
+        <h1>E D U C T I O N</h1>
+        <div class="studyinfo">
+            <div class="degree">
+                <h2>B.E. Computer Engineering</h2>
+                <p>Government Engineering Collage, Rajkot</p>
+                <p>CGPA: 7.52</p>
+                <p>Batch: 2021-2025</p>
+            </div>
+            <div class="hsc">
+                <h2>HSC</h2>
+                <p>Shree Vallabh Vidhyalaya, Upleta</p>
+                <p>Percentage: 88.67%</p>
+                <p>Pass out year: 2021</p>
+            </div>
+            <div class="ssc">
+                <h2>SSC</h2>
+                <p>Shree Vallabh Vidhyalaya, Upleta</p>
+                <p>Percentage: 83%</p>
+                <p>Pass out year: 2019</p>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <h1>C O N T A C T</h1>
+        <div class="myinfo">
+            <div class="info">
+                <i class="fa fa-solid fa-location-dot"></i>
+                <h3>WHERE TO FIND ME</h3>
+                <P>sahid Arjun Road,<br>Upleta,<br>Rajkot</P>
+            </div>
+            <div class="info">
+                <i class="fa fa-solid fa-envelope"></i>
+                <h3>EMAIL ME AT</h3>
+                <P>rajbhanderi8080@gmail.com</P>
+            </div>
+            <div class="info">
+                <i class="fa fa-solid fa-phone"></i>
+                <h3>CALL ME AT</h3>
+                <P>Mobile: +91 9173628080</P>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerinfo">
+                <p><i class="fa-regular fa-copyright"></i>Copyright 2024 &nbsp;| &nbsp; Design by <span>Raj Bhanderi</span></p>
+            </div>
+            <div class="links">
+                <a href="https://www.facebook.com/profile.php?id=100064265256109&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://github.com/RajBhanderi80" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/MrRPatel80?s=08" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="http://www.linkedin.com/in/raj-bhanderi-269863243" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/_r_a_j_._b_h_a_n_d_e_r_i_?igsh=MTQxNTlmZnIxMnFsaQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
